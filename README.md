@@ -16,6 +16,10 @@ These skip connections exhibit two major advantages:
    <img src="https://github.com/NiranthS/Denoising-using-CNN/blob/master/conv_deconv.jpg">
 </p>
 
+<p align="center">
+   Image showing Convolutional and transposed convolutional layers with skip connections
+</p>
+
 * The convolutional and transposed convolution layers are symmetric.
 * ReLU/Leaky ReLU are used after every convolutional and transposed convolution layer.
 * Pooling/unpooling is not used as pooling discards useful image details that are useful for these kind of tasks.
