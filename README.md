@@ -13,7 +13,7 @@ These skip connections exhibit two major advantages:
 * The network is fully convolutional and transposed convolution.
 
 <p align="center">
-   <img width='500' height='300' src="https://github.com/NiranthS/Denoising-using-CNN/blob/master/conv_deconv.jpg">
+   <img width='700' height='300' src="https://github.com/NiranthS/Denoising-using-CNN/blob/master/conv_deconv.jpg">
 </p>
 
 * The convolutional and transposed convolution layers are symmetric.
