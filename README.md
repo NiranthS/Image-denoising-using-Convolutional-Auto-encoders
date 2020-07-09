@@ -10,7 +10,12 @@ These skip connections exhibit two major advantages:
 * They allow signal to be back-propagated directly to the layers at the starting and hence tackling the problem of vanishing gradients.
 
 ## Architecture
-* The network is fully convolutional and transposed convolution).
+* The network is fully convolutional and transposed convolution.
+
+<p align="center">
+   <img src="https://github.com/NiranthS/Denoising-using-CNN/blob/master/conv_deconv.jpg">
+</p>
+
 * The convolutional and transposed convolution layers are symmetric.
 * ReLU/Leaky ReLU are used after every convolutional and transposed convolution layer.
 * Pooling/unpooling is not used as pooling discards useful image details that are useful for these kind of tasks.
