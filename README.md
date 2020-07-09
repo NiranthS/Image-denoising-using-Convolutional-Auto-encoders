@@ -17,7 +17,7 @@ These skip connections exhibit two major advantages:
 </p>
 
 <p align="center">
-   __Image showing Convolutional and transposed convolutional layers with skip connections__
+ **Image showing Convolutional and transposed convolutional layers with skip connections**
 </p>
 
 * The convolutional and transposed convolution layers are symmetric.
