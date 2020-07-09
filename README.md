@@ -1,4 +1,4 @@
-# Denoising-using-CNN
+# Denoising using CNN
 
 Image denoising is a well-studied problem in Computer Vision as well as a test bed for low-level image modelling algorithms. For this task I used a fully Convolutional auto-encoder network for image restoring. The network consists of multiple convolution and deconvolution(transposed convolution) layers, learning mapping from corrupted images to original images. 
 * The convolutional layers capture the contents of the image while eliminating the noise.
