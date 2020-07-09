@@ -1,6 +1,6 @@
 # Denoising using CNN
 
-Image denoising is a well-studied problem in Computer Vision. For this task I used a fully Convolutional auto-encoder network for image restoring. The network consists of multiple convolution and transposed convolution layers, learning mapping from corrupted images to original images. 
+Image denoising is a well-studied problem in Computer Vision. For this task I used a fully Convolutional auto-encoder network for image restoring. The network consists of multiple convolution and transposed convolution(deconvolution) layers, learning mapping from corrupted images to original images. 
 * The convolutional layers capture the contents of the image while eliminating the noise.
 * The transposed convolution layers upsample the feature maps and recover the details of the image.
 ## Skip Connections
@@ -10,7 +10,7 @@ These skip connections exhibit two major advantages:
 * They allow signal to be back-propagated directly to the layers at the starting and hence tackling the problem of vanishing gradients.
 
 ## Architecture
-* The network is fully convolutional and transposed convolution.
+* The network is fully convolutional and transposed convolution(deconvolution).
 
 <p align="center">
    <img src="https://github.com/NiranthS/Denoising-using-CNN/blob/master/conv_deconv.jpg">
@@ -35,7 +35,7 @@ These skip connections exhibit two major advantages:
 * PSNR vs epochs
 
 
-# photos
+# Photos
 * different noise levels: original images, noisy images and denoised images
 
 
