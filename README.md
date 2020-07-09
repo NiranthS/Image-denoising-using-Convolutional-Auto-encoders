@@ -19,3 +19,22 @@ These skip connections exhibit two major advantages:
 ## Image denoising
 * CIFAR-10 dataset is used in this task.
 * An additive Gaussian noise with zero mean and standard deviation of 0.1,0.3,0.5 is used in this task.
+
+
+# Graphs
+* Show difference between skip and no skip model
+* Show with and without padding
+* Different noise levels performance
+* PSNR vs epochs
+
+
+# photos
+* different noise levels: original images, noisy images and denoised images
+
+
+
+
+
+
+# Blind denoising
+
