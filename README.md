@@ -31,15 +31,22 @@ These skip connections exhibit two major advantages:
 * An additive Gaussian noise with zero mean and standard deviation of 0.1,0.3,0.5 is used in this task.
 
 
-# Graphs
+# Training(show graphs)
+* mention all the hyperparameters used
 * Show difference between skip and no skip model
 * Show with and without padding
 * Different noise levels performance
 * PSNR vs epochs
+* Batch size comparision
+* dropout conparision
+
 
 
 # Photos
 * different noise levels: original images, noisy images and denoised images
+
+
+
 
 
 
