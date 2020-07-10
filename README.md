@@ -22,7 +22,7 @@ These skip connections exhibit two major advantages:
 
 
 * The convolutional and transposed convolution layers are symmetric.
-* ReLU/Leaky ReLU are used after every convolutional and transposed convolution layer.
+* ReLU is used after every convolutional and transposed convolution layer.
 * Pooling/unpooling is not used as pooling discards useful image details that are useful for these kind of tasks.
 * Skip connections are added from a convolutional layes to its corresponding transposed convolution layer.
 
