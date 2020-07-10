@@ -16,7 +16,7 @@ These skip connections exhibit two major advantages:
 * The network is fully convolutional and transposed convolution(deconvolution).
 
 <p align="center">
-   <img src="https://github.com/NiranthS/Denoising-using-CNN/blob/master/conv_deconv.jpg">
+   <img src="https://github.com/NiranthS/Image-denoising-using-CNN/blob/master/conv_deconv.jpg">
 </p>
 
 
