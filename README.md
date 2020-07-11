@@ -1,4 +1,4 @@
-# Denoising using CNN
+# Denoising using Convolutional Auto-encoders
 
 One of the fundamental challenges in the field of image processing and computer vision is image denoising, where the underlying goal is to estimate the original image by suppressing noise from a noise-contaminated version of the image.It is a well-studied problem in Computer Vision.
 
@@ -16,7 +16,7 @@ These skip connections exhibit two major advantages:
 * The network is fully convolutional and transposed convolution(deconvolution).
 
 <p align="center">
-   <img src="https://github.com/NiranthS/Image-denoising-using-CNN/blob/master/conv_deconv.jpg">
+   <img src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/conv_deconv.jpg">
 </p>
 
 
