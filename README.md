@@ -32,6 +32,13 @@ These skip connections exhibit two major advantages:
 ## Image denoising
 * CIFAR-10 dataset is used in this task.
 * An additive Gaussian noise with zero mean and standard deviation of 0.1,0.3,0.5,0.7,1.0 is used in this task.
+* Peak signal-to-noise ratio(PSNR) is used to compare the performance. It is given by
+ 
+```python
+psnr = 20 * np.log10(max_pixel / np.sqrt(mse))
+```
+mse- mean square error
+max_pixel- Max value of pixel in an image
 
 
 # Training(show graphs)
