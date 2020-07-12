@@ -41,7 +41,7 @@ mse- mean square error;
 max_pixel- Max value of pixel in an image
 
 
-# Training(show graphs)
+## Results
 * Network performance on different values of standard deviation:
 
 <p align="center">
@@ -64,7 +64,10 @@ Images showing original images(row 1), noisy images(row2), denoised images(row 3
    <img src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/result_01.png">
 </p>
 
+Images showing original images(row 1), noisy images(row2), denoised images(row 3) for standard deviation 0.1
 
+
+More results are shown in the results.pdf
 
 
 
@@ -73,3 +76,7 @@ Images showing original images(row 1), noisy images(row2), denoised images(row 3
 
 
 ## References
+* [Chunwei Tian et al., Deep Learning on Image Denoising: An Overview
+](https://arxiv.org/abs/1912.13171)
+* [Xiao-Jiao Mao et al., Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections](https://arxiv.org/pdf/1606.08921.pdf)
+
