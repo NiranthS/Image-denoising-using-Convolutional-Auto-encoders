@@ -1,6 +1,7 @@
 # Denoising using Convolutional Auto-encoders
 
 Run [Denoising_using_CAE.ipynb](https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/Denoising_using_CAE.ipynb) for implementation. Link to Colab notebook is [here](https://colab.research.google.com/drive/1IBWibQWdS8VA_DJSQcqn2gOGe8isP1XQ?usp=sharing)
+Pretrained models are available [here](https://drive.google.com/drive/folders/1p_9WpFwvPebwQ6Sxe_wXxMjaJ0ti9lfJ?usp=sharing)
 
 One of the fundamental challenges in the field of image processing and computer vision is image denoising, where the underlying goal is to estimate the original image by suppressing noise from a noise-contaminated version of the image.It is a well-studied problem in Computer Vision.
 
