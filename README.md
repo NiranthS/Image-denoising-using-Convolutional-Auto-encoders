@@ -73,7 +73,7 @@ Images showing original images(row 1), noisy images(row2), denoised images(row 3
 Images showing original images(row 1), noisy images(row2), denoised images(row 3) for standard deviation 0.1
 
 
-More results are shown in the results.pdf
+More results are shown in the [results.pdf](https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/Results.docx.pdf)
 
 
 
