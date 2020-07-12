@@ -37,13 +37,27 @@ These skip connections exhibit two major advantages:
 ```python
 psnr = 20 * np.log10(max_pixel / np.sqrt(mse))
 ```
-mse- mean square error
+mse- mean square error;
 max_pixel- Max value of pixel in an image
 
 
 # Training(show graphs)
-* Different noise levels performance
-* PSNR vs epochs
+* Network performance on different values of standard deviation:
+
+<p align="center">
+   <img src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/psnr_all.png">
+</p>
+
+standard deviation  | PSNR 
+--- | --- 
+0.1  | 28.33 
+0.3  | 22.81  
+0.5  | 20.42 
+0.7  | 18.98  
+1.0  | 15.35 
+
+
+
 
 
 
