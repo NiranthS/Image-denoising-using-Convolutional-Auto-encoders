@@ -50,19 +50,10 @@ max_pixel- Max value of pixel in an image
 
 <p align="center">
    <img src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/psnr_all.png">
+   <img width="200" height="300" src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/psnr_table.png">
 </p>
 
-<center>
 
-standard deviation  | PSNR 
---- | --- 
-0.1  | 28.33 
-0.3  | 22.81  
-0.5  | 20.42 
-0.7  | 18.98  
-1.0  | 15.35 
-
-</center>
 
 Images showing original images(row 1), noisy images(row2), denoised images(row 3) for standard deviation 0.1
 
