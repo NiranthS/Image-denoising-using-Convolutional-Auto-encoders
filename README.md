@@ -58,14 +58,11 @@ standard deviation  | PSNR
 
 
 
+Images showing original images(row 1), noisy images(row2), denoised images(row 3) for standard deviation 0.1
 
-
-
-
-# Photos
-* different noise levels: original images, noisy images and denoised images
-
-
+<p align="center">
+   <img src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/result_01.png">
+</p>
 
 
 
