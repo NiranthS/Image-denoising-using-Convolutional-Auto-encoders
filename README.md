@@ -1,6 +1,5 @@
 # Denoising using Convolutional Auto-encoders
-
-Run [Denoising_using_CAE.ipynb](https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/Denoising_using_CAE.ipynb) for implementation. Link to Colab notebook is [here](https://colab.research.google.com/drive/1IBWibQWdS8VA_DJSQcqn2gOGe8isP1XQ?usp=sharing).
+[Colab notebook](https://colab.research.google.com/drive/1IBWibQWdS8VA_DJSQcqn2gOGe8isP1XQ?usp=sharing)
 
 Pretrained models are available [here](https://drive.google.com/drive/folders/1p_9WpFwvPebwQ6Sxe_wXxMjaJ0ti9lfJ?usp=sharing)
 
@@ -10,7 +9,7 @@ One of the fundamental challenges in the field of image processing and computer 
    <img src="https://github.com/NiranthS/Image-denoising-using-Convolutional-Auto-encoders/blob/master/3imgs.png">
 </p>
 
-For this task I used a fully **Convolutional auto-encoder** network for image restoring. The network consists of **multiple convolution and transposed convolution(deconvolution) layers**, learning mapping from corrupted images to original images. 
+For this task a fully **Convolutional auto-encoder** network was used. The network consists of **multiple convolution and transposed convolution(deconvolution) layers**, learning mapping from corrupted images to original images. 
 * The **convolutional layers** capture the **contents of the image** while **eliminating the noise**.
 * The **transposed convolution layers** upsample the feature maps and **recover the details of the image*.
 ## Skip Connections
